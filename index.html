@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>こんにちは！私のポートフォリオサイトへようこそ</h1>
-  <p>これはGitHub Pagesで公開しています。</p>
+
+  <!-- ヘッダー -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 自己紹介セクション -->
+  <section id="about">
+    <h2>自己紹介</h2>
+    <p>こんにちは！私はWeb制作が好きなデザイナー兼コーダーです。HTML/CSSやJavaScriptを使ったサイト制作が得意です。</p>
+  </section>
+
+  <!-- 作品セクション -->
+  <section id="works">
+    <h2>作品紹介</h2>
+    <div class="works-grid">
+      <div class="work-item">
+        <img src="https://via.placeholder.com/300x200" alt="作品1">
+        <h3>作品タイトル 1</h3>
+        <p>これはサンプルの作品紹介文です。</p>
+      </div>
+      <div class="work-item">
+        <img src="https://via.placeholder.com/300x200" alt="作品2">
+        <h3>作品タイトル 2</h3>
+        <p>これはサンプルの作品紹介文です。</p>
+      </div>
+      <div class="work-item">
+        <img src="https://via.placeholder.com/300x200" alt="作品3">
+        <h3>作品タイトル 3</h3>
+        <p>これはサンプルの作品紹介文です。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせセクション -->
+  <section id="contact">
+    <h2>お問い合わせ</h2>
+    <p>お仕事の依頼やご相談など、お気軽にご連絡ください。</p>
+    <a href="mailto:yourname@example.com">yourname@example.com</a>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <p>&copy; 2025 Miyazaki Haruka. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
